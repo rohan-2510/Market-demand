@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head><title>Crop Market Demand Prediction</title>
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            padding: 40px;
+        }
+        .container {
+            background-color: white;
+            max-width: 600px;
+            margin: auto;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            text-align: center;
+            color: #2F4F4F;
+        }
+        input[type="text"], select {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0 20px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            width: 100%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        .result {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 18px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h2>Crop Market Demand Prediction</h2>
+    <form action="/predict" method="post">
+        Temperature: <input type="text" name="temperature"><br><br>
+        Rainfall: <input type="text" name="rainfall"><br><br>
+        Supply Volume: <input type="text" name="supply"><br><br>
+        Demand Volume: <input type="text" name="demand"><br><br>
+        Transport Cost: <input type="text" name="transport_cost"><br><br>
+        Fertilizer Cost: <input type="text" name="fertilizer_cost"><br><br>
+        Pest Level: <input type="text" name="pest_level"><br><br>
+
+        Crop Type:
+        <select name="crop_type">
+            <option>Rice</option>
+            <option>Wheat</option>
+            <option>Maize</option>
+        </select><br><br>
+
+        Season:
+        <select name="season">
+            <option>Kharif</option>
+            <option>Rabi</option>
+        </select><br><br>
+
+        City:
+        <select name="city">
+            <option>Mumbai</option>
+            <option>Bangalore</option>
+        </select><br><br>
+
+        State:
+        <select name="state">
+            <option>Karnataka</option>
+            <option>Maharashtra</option>
+        </select><br><br>
+
+        <input type="submit" value="Predict">
+    </form>
+
+    <h3>{{ prediction }}</h3>
+</body>
+</html>

@@ -1,0 +1,63 @@
+Temperature (°C)
+Rainfall (mm)
+Supply Volume (tons)
+Demand Volume (tons)
+Transportation Cost (₹/ton)
+Fertilizer Usage (kg/hectare)
+Pest Infestation (0-1)
+Market Competition (0-1)
+Crop Type_Barley
+Crop Type_Coffee
+Crop Type_Cotton
+Crop Type_Groundnut
+Crop Type_Jute
+Crop Type_Maize
+Crop Type_Millets
+Crop Type_Mustard
+Crop Type_Onion
+Crop Type_Potato
+Crop Type_Pulses
+Crop Type_Rice
+Crop Type_Sesame
+Crop Type_Soybean
+Crop Type_Sugarcane
+Crop Type_Sunflower
+Crop Type_Tea
+Crop Type_Tobacco
+Crop Type_Tomato
+Crop Type_Wheat
+Season_Kharif
+Season_Post-Monsoon
+Season_Rabi
+Season_Zaid
+City_Amritsar
+City_Bangalore
+City_Belgaum
+City_Bellary
+City_Chennai
+City_Coimbatore
+City_Davanagere
+City_Durgapur
+City_Gulbarga
+City_Hubli
+City_Kanpur
+City_Kolkata
+City_Lucknow
+City_Ludhiana
+City_Madurai
+City_Mangalore
+City_Mumbai
+City_Mysore
+City_Nagpur
+City_Patiala
+City_Pune
+City_Shimoga
+City_Siliguri
+City_Udupi
+City_Varanasi
+State_Karnataka
+State_Maharashtra
+State_Punjab
+State_Tamil Nadu
+State_Uttar Pradesh
+State_West Bengal
